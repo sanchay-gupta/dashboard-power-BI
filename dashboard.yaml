@@ -1,0 +1,82 @@
+---
+title: Verman's Online Sales Dashboard
+# Add any other relevant metadata here, such as author, date, etc.
+
+charts:
+- type: bar
+  title: Sum of Quantity by Month
+  data:
+    - x: January
+      y: 8000
+    - x: February
+      y: 6000
+    - x: March
+      y: 9000
+    - x: April
+      y: 7000
+    - x: May
+      y: 5000
+    - x: June
+      y: 1000
+    - x: July
+      y: 1000
+    - x: August
+      y: -1000
+    - x: September
+      y: 1000
+    - x: October
+      y: 2000
+    - x: November
+      y: 3000
+    - x: December
+      y: 13000
+
+- type: pie
+  title: Sum of Quantity by Category
+  data:
+    - label: Furniture
+      value: 17
+    - label: Clothing
+      value: 6.3
+
+- type: bar
+  title: Sum of Quantity by Payment Mode
+  data:
+    - x: EMI
+      y: 10
+    - x: Credit Card
+      y: 12
+    - x: COD
+      y: 44
+    - x: Debit Card
+      y: 13
+    - x: UPI
+      y: 21
+
+- type: pie
+  title: Sum of Quantity by Payment Mode
+  data:
+    - label: EMI
+      value: 10
+    - label: Credit Card
+      value: 12
+    - label: COD
+      value: 44
+    - label: Debit Card
+      value: 13
+    - label: UPI
+      value: 21
+
+- type: number
+  title: Sum of Amount
+  value: 438K
+
+- type: number
+  title: Sum of Profit
+  value: 37K
+
+- type: number
+  title: Sum of Quantity
+  value: 5615
+
+# Add more charts and data as needed
